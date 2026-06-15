@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.butons {
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 168px;
+}
+
+.btn-01 {
+    padding: 10px 25px;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+}
+
+.btn-01:hover {
+    color: white;
+    background-color: black;
+}
+
+.btn-02 {
+    color: #80E8FF;
+    line-height: 10px
+}
