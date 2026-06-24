@@ -1,0 +1,8 @@
+<div class="produto">
+  <span class="oferta">Oferta</span>
+  <img src="https://via.placeholder.com/150">
+  <h3>Notebook Gamer</h3>
+  <p>Alta performance para jogos</p>
+  <div class="preco">R$ 3.499</div>
+  <button class="btn">Comprar</button>
+</div>
