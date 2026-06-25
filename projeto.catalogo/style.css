@@ -107,56 +107,63 @@ header {
 }
 
 .card-img1 {
-    width: 206px;
+    width: 219px;
     height: 97px;
     background-image: url(./assets/notebook.png);
-    border: 1px solid #FFFFFF;
+    border: 2px solid #C0C0C0;
+    border-radius: 10px;
 }
 
 .card-img2 {
-    width: 206px;
+    width: 219px;
     height: 97px;
     background-image: url(./assets/headset.png);
+    border: 2px solid #C0C0C0;
+    border-radius: 10px;
 }
 
 .card-img3 {
-    width: 206px;
+    width: 219px;
     height: 97px;
     background-image: url(./assets/teclado.png);
+    border: 2px solid #C0C0C0;
+    border-radius: 10px;
 }
 
 .card-img4 {
-    width: 206px;
+    width: 219px;
     height: 97px;
     background-image: url(./assets/cadeira.png);
+    border: 2px solid #C0C0C0;
+    border-radius: 10px;
 }
 
 .card-img5 {
-    width: 206px;
+    width: 219px;
     height: 97px;
     background-image: url(./assets/luminaria.png);
 }
 
 .card-img6 {
-    width: 206px;
+    width: 219px;
     height: 97px;
     background-image: url(./assets/mousepad.png);
 }
 
 .card-img7 {
-    width: 206px;
+    width: 219px;
     height: 97px;
     background-image: url(./assets/mouse.png);
 }
 
 .card-img8 {
-    width: 206px;
+    width: 219px;
     height: 97px;
     background-image: url(./assets/microfone.png);
 }
 
 .card-img9 {
-    width: 206px;
+    width: 219px;
     height: 97px;
     background-image: url(./assets/webcam.png);
 }
@@ -172,107 +179,108 @@ button {
 }
 
 .desconto1 {
-    background-color: #00C200;
-    width: 50px;
-    text-align: center;
-    position: absolute;
-    right: 625px;
-    top: 14px;
-    border-radius: 5px;
-}
-
-.desconto2 {
-    border-radius: 5px;
+     border-radius: 5px;
     padding: 5px 5px;
-    color-interpolation-filters: white;
     background-color: #00C200;
     width: 50px;
     text-align: center;
     position: absolute;
     right: 350px;
     top: 14px;
+    color: white;   
+}
+.desconto2 {
+    border-radius: 5px;
+    padding: 5px 5px;
+    background-color: #00C200;
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    right: 350px;
+    top: 14px;
+    color: white;
 }
 
 .desconto3 {
     border-radius: 5px;
     padding: 5px 5px;
-    color-interpolation-filters: white;
     background-color: #00C200;
     width: 50px;
     text-align: center;
     position: absolute;
-    right: 15px;
+    right: 10px;
     top: 14px;
+    color: white;
 }
 
 .desconto4{
     border-radius: 5px;
     padding: 5px 5px;
-    color-interpolation-filters: white;
     background-color: #00C200;
     width: 50px;
     text-align: center;
     position: absolute;
-    right: 15px;
-    top: 14px;
+    right: 
+    top: 20px
+    color: white;
 }
 
 .desconto5 {
     border-radius: 5px;
     padding: 5px 5px;
-    color-interpolation-filters: white;
     background-color: #00C200;
     width: 50px;
     text-align: center;
     position: absolute;
-    right: 15px;
+    right: 18px
     top: 14px;
+    color: white;
 }
 
 .desconto6 {
     border-radius: 5px;
     padding: 5px 5px;
-    color-interpolation-filters: white;
     background-color: #00C200;
     width: 50px;
     text-align: center;
     position: absolute;
-    right: 15px;
+    right: 1;
     top: 14px;
+    color: white;
 }
 
 .desconto7 {
     border-radius: 5px;
     padding: 5px 5px;
-    color-interpolation-filters: white;
     background-color: #00C200;
     width: 50px;
     text-align: center;
     position: absolute;
-    right: 15px;
+    right: 1;
     top: 14px;
+    color: white;
 }
 
 .desconto8 {
     border-radius: 5px;
     padding: 5px 5px;
-    color-interpolation-filters: white;
     background-color: #00C200;
     width: 50px;
     text-align: center;
     position: absolute;
-    right: 15px;
+    right: 1;
     top: 14px;
+    color: white;
 }
 
 .desconto9 {
     border-radius: 5px;
     padding: 5px 5px;
-    color-interpolation-filters: white;
     background-color: #00C200;
     width: 50px;
     text-align: center;
     position: absolute;
-    right: 15px;
+    right: 1
     top: 14px;
+    color: white;
 }
