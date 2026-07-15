@@ -1,0 +1,10 @@
+let pessoa = {
+    nome: "davi",
+    idade: 15,
+    altura: 1.70 ,
+    estudante : true
+}
+
+for (let chave in pessoa){
+    console.log(`${pessoa} =${pessoa[pessoa.nome]}`)
+}
