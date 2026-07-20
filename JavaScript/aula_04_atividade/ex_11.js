@@ -5,6 +5,8 @@ let filme = {
     genero: "animação"
 }
 
-for (let chave in ) {
-    console.log(`${chave} = ${filme[chave]}`)
+for (let chave in filme) {
+    console.log(`${chave} - ${filme[filme.chave]}`)
 }
+console.log(Object.keys(filmes))
+console.log(Object.values(filmes))

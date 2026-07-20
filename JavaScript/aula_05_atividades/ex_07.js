@@ -1,0 +1,13 @@
+let nota = 6.7
+
+if(nota >= 9)
+    console.log("excelente")
+
+else if (nota >= 7)
+    console.log("bom")
+
+else if (nota >= 5)
+    console.log("regular")
+
+else if (nota <= 4)
+    console.log ("insuficiente")
