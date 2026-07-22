@@ -9,5 +9,6 @@ else if (nota >= 7)
 else if (nota >= 5)
     console.log("regular")
 
-else if (nota <= 4)
-    console.log ("insuficiente")
+else {
+    console.log("insuficiente")
+}

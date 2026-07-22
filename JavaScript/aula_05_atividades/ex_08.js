@@ -1,10 +1,20 @@
-let valorCompra = 12
+let valorCompra = 250
+let valorfinal
 
-if(valorCompra >= 200)
-    console.log("compra com 20% de desconto!")
+if(valorCompra > 500) {
+    valorCompra = valorcompra * 0.8
+}
+    
+else if (valorCompra >= 200) {
+    valorfinal = valorCompra * 0.9
+}
 
-else if (valorCompra >= 100)
-    console.log("compra com 10% de desconto!")
+else if (valorCompra <= 100) {
+    valorfinal = valorCompra * 0.95
+}
 
-else if (valorCompra <= 99)
-    console.log (" sem desconto!")
+else {
+    valorfinal = valorcompra 
+}
+
+console.log (`Valor Final : R$ ${valorfinal}`)

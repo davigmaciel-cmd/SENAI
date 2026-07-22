@@ -1,13 +1,17 @@
 let idade = 67
 
-if(idade <= 12 )
+if(idade <= 12 ) {
     console.log("criança")
+}
 
-else if(idade <= 17)
+else if(idade <= 17) {
     console.log("adolescente")
+}
 
-else if(idade <= 64)
+else if(idade <= 64) {
     console.log("adulto")
+}
 
-else (idade >= 65)
+else {
     console.log("idoso")
+}

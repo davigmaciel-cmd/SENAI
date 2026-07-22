@@ -1,30 +1,18 @@
 let statuss = "entregue"
 
 switch(statuss) {
-    case 1 :
-        console.log("pendente")
+    case "pendente" :
+        console.log("pagamento não finalizado")
         break ;
 
-    case 2 :
-        console.log("pagamento não finalizado")
-        break;
-
-    case 3 :
-        console.log("enviado")
-        break;
-
-    case 4 :
+    case "enviado" :
         console.log("a caminho")
         break;
 
-    case 5 :
-        console.log("entregue")
-        break;
-
-    case 6 :
+    case "entregue" :
         console.log("finalizado")
         break;
-    
+
     default:
-        console.log("error 404")
+        console.log("status desconhecido")
 }
