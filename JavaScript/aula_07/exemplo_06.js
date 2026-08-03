@@ -1,0 +1,1 @@
+const calcArea = (b,h) => b*h
