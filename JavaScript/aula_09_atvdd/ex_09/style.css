@@ -1,0 +1,9 @@
+passM {
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid gray;
+    width: 90px;
+}
